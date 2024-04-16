@@ -5,7 +5,7 @@ a {
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: white
+    background-color: #fff
     width: 1440px;
     height: 3300px;
 }
@@ -99,7 +99,9 @@ margin-bottom: 24px;
     color: #434455;
 }
 
-.address-link:hover,
+.address-link:hover {
+    color: #404bbf;
+}
 .address-link:focus {
     color: #404bbf;
 }
@@ -126,6 +128,7 @@ ul, ol {
     line-height: 107%;
     letter-spacing: 0.02em;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
 .order-btn {
@@ -190,7 +193,9 @@ ul, ol {
     background-color: #FFFFFF
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF
+}
 
 .team-item-name {
     font-weight: 500;
@@ -214,35 +219,36 @@ ul, ol {
 /* -------PORTFOLIO------- */
 
 .our-portfolio {
-    font-weight: 700;
+
+}
+
+.our-portfolio-title {
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
 }
 
-.our-portfolio-title {}
-
 .our-portfolio-list {}
 
 .our-portfolio-item {}
 
 .our-portfolio-name {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .our-portfolio-teg {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* -------------------- */
@@ -254,13 +260,13 @@ ul, ol {
 }
 
 .footer-logo {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .footer-logo-accent {
 color: #f4f4fd;
