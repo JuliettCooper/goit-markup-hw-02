@@ -5,9 +5,7 @@ a {
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #fff
-    width: 1440px;
-    height: 3300px;
+    background-color:#FFFFFF
 }
 ul, ol {
     list-style: none;
@@ -16,16 +14,12 @@ ul, ol {
 /* -------HEADER------- */
 
 .header {
-    width: 1440px;
-    height: 72px;
-    align-items: center;
+
 }
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
-    display: flex;
 }
 nav ul li {
     margin-right: 40px;
@@ -42,12 +36,9 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-width: 115px;
-height: 24px;
-margin-left: 156px;
-margin-right: 1169px;
-margin-top: 24px;
-margin-bottom: 24px;
+margin-right: 76px;
+padding: 24px 0;
+display: block;
 }
 
 .logo-accent {
@@ -55,11 +46,7 @@ margin-bottom: 24px;
 }
 
 .header-menu-list {
-    width: 261px;
-    height: 24px;
-    margin-left: 347px;
     margin-right: 832px;
-    margin-top: 24px;
     margin-bottom: 24px;
 }
 .header-menu-item {
@@ -115,8 +102,6 @@ ul, ol {
 }
 
 .solutions {
-    width: 1440px;
-    height: 600px;
     background-color: #2E2F42;
 }
 
@@ -131,23 +116,19 @@ ul, ol {
     text-align: center;
 }
 
-.order-btn {
+.service-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
     font-family: "Roboto", sans-serif
 }
-.order-btn:hover,
-.order-btn:focus {
+.service-btn:hover,
+.service-btn:focus {
     background-color: #404bbf;
 }
 .advantages {}
