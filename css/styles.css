@@ -6,6 +6,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: white
+    width: 1440px;
+    height: 3300px;
 }
 ul, ol {
     list-style: none;
@@ -16,8 +18,6 @@ ul, ol {
 .header {
     width: 1440px;
     height: 72px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -31,6 +31,9 @@ nav ul li {
     margin-right: 40px;
 }
 
+.title {
+    text-align: center
+}
 .header-logo-link {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -54,6 +57,10 @@ margin-bottom: 24px;
 .header-menu-list {
     width: 261px;
     height: 24px;
+    margin-left: 347px;
+    margin-right: 832px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 .header-menu-item {
     font-weight: 500;
@@ -134,6 +141,7 @@ ul, ol {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
+    font-family: "Roboto", sans-serif
 }
 .order-btn:hover,
 .order-btn:focus {
@@ -168,9 +176,19 @@ ul, ol {
     background-color: #f4f4fd;;
 }
 
-.team-title {}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-item {}
 
@@ -195,7 +213,15 @@ ul, ol {
 
 /* -------PORTFOLIO------- */
 
-.our-portfolio {}
+.our-portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 
 .our-portfolio-title {}
 
@@ -203,9 +229,21 @@ ul, ol {
 
 .our-portfolio-item {}
 
-.our-portfolio-name {}
+.our-portfolio-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
 
-.our-portfolio-teg {}
+.our-portfolio-teg {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
 /* -------------------- */
 
@@ -222,10 +260,10 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
-}
-.logo-footer {
 color: #4d5ae5;
+}
+.footer-logo-accent {
+color: #f4f4fd;
 }
 
 .footer-text {
